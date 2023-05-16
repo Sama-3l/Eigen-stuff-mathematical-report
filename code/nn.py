@@ -210,8 +210,6 @@ class NeuralNetwork:
         delta_threshold = 1e-16 # Kill condition
         verbose = True # True to display state of neural network evrey 100th iteration
         number_of_steps = 0
-        # Create the matrix to be used
-        #A = pairing_model_4p4h (0.5, 1.0)
 
         tf.reset_default_graph()
         # Calcualte the estimate of the eigenvalue and the eigenvector
@@ -231,8 +229,6 @@ class NeuralNetwork:
         delta_threshold = 1e-16 # Kill condition
         verbose = True # True to display state of neural network evrey 100th iteration
         number_of_steps = 0
-        # Create the matrix to be used
-        #A = pairing_model_4p4h (0.5, 1.0)
 
         # Reset the Tensorflow graph, causes an error if this is not here
         # Since the above cells are not re-ran every time this one is, they are not 
@@ -242,14 +238,6 @@ class NeuralNetwork:
         # Calcualte the estimate of the eigenvalue and the eigenvector
         eigenvalue, eigenvector, number_of_steps  = self.NN_Eigenvalue(matrix_size, A, max_iterations, nn_structure, eigen_guess, eigen_lr, delta_threshold)
 
-        ## Compare with the analytical solution
-
-        # print("\n Numpy Eigenvalues: \n", numpy_eigenvalues)
-        # print("\n Final Numerical Eigenvalue \n", eigenvalue)
-        # diff = np.min(abs(numpy_eigenvalues - eigenvalue))
-        # print("\n")
-        # print('Absolute difference between Numerical Eigenvalue and TensorFlow DNN = ',diff)
-
         return eigenvalue, eigenvector, number_of_steps
     
     def get_time_taken_nn(self, A):
@@ -257,9 +245,3 @@ class NeuralNetwork:
         eigenvalue, eigenvector, number_of_steps = self.run_neural_net(A)
         end = time.time()
         return eigenvalue, eigenvector, number_of_steps, round(end - start, 3)
-
-def random_symmetric (matrix_size):
-        
-    A = np.random.rand (matrix_size, matrix_size)
-    A = (np.transpose(A) + A) / 2
-    return A
