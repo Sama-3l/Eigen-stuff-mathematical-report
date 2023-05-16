@@ -113,7 +113,7 @@ def get_power_time_vs_dim(number_of_dimensions):
     plt.show()  
 
 def get_eigen_results(number_of_dimensions):
-    eigen = EigenResults()
+    eigen = EigenResults
     for i in range(2, number_of_dimensions+1):
         A = random_symmetric(i)
         print("Numpy values\n")
@@ -171,3 +171,15 @@ def get_error_results(number_of_dimensions):
         errorAnalysis.nn_error_analysis(axs3, A, x, y)
 
     plt.show()
+
+# Gives the eigenvalues and eigenvectors from all 3 methods for dimensions from 2 to n - 1
+get_eigen_results(20)
+
+# Gives the graph of convergence for each method for dimensions from 2 to n - 1 at step of 4
+get_error_results(20)
+
+# Gives the graph of convergence for each method for dimensions from 2 to n - 1 at step of 4 < 66
+get_power_time_vs_dim(20)
+
+# Gives the time taken by each method for dimensions from 2 to n - 1 at step of 4
+get_time_results(20)
