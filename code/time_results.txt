@@ -1,0 +1,2959 @@
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.063
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.797
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.094
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+0.766
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.109
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.797
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.141
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.172
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.25
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.75
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.266
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.313
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.766
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.406
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.734
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.516
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.5
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.797
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.563
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+0.766
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.687
+
+
+Power Results
+
+0.078
+
+
+Neural net Results
+
+0.766
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.766
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.766
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.844
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.734
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+0.922
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.953
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.047
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+0.797
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.156
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.297
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.784
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.391
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.812
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.562
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.688
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.766
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.797
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.812
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+1.953
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.844
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+2.125
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.828
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+2.266
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.797
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+2.453
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.828
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+2.625
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+0.844
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+2.75
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.859
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+2.969
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+0.875
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+3.156
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+0.859
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+3.375
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.859
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+3.594
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.875
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+3.797
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.859
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+4.0
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+1.0
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+4.187
+
+
+Power Results
+
+0.067
+
+
+Neural net Results
+
+0.933
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+4.422
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.906
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+4.687
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.891
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+4.922
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.937
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+5.141
+
+
+Power Results
+
+0.047
+
+
+Neural net Results
+
+0.891
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+5.438
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.906
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+5.75
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.953
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+5.852
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.984
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+6.109
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+0.969
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+6.437
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.969
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+6.766
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+1.047
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+7.047
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.953
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+7.297
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.938
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+7.484
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.0
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+7.875
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.031
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+8.172
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.047
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+8.813
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+0.984
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+8.894
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.062
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+9.266
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.047
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+9.547
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.094
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+10.219
+
+
+Power Results
+
+0.078
+
+
+Neural net Results
+
+1.328
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+10.297
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.187
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+10.516
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.187
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+10.953
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.203
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+11.328
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.172
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+11.625
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.281
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+12.062
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.281
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+12.469
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.281
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+16.094
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.359
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+16.532
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.359
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+16.894
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.406
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+17.312
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.437
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+17.75
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+1.328
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+18.328
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.469
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+18.578
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.5
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+19.063
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.453
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+19.406
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+1.531
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+20.078
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+1.563
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+20.375
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.609
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+20.692
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+1.672
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+21.517
+
+
+Power Results
+
+0.063
+
+
+Neural net Results
+
+1.797
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+21.922
+
+
+Power Results
+
+0.078
+
+
+Neural net Results
+
+1.852
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+22.203
+
+
+Power Results
+
+0.079
+
+
+Neural net Results
+
+1.844
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+22.797
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.781
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+23.222
+
+
+Power Results
+
+0.062
+
+
+Neural net Results
+
+1.891
+--------------------------------------------------
+
+Numpt time
+
+0.0
+
+
+Jacobi Results
+
+28.373
+
+
+Power Results
+
+0.127
+
+
+Neural net Results
+
+2.395
+--------------------------------------------------
+
+Numpt time
+
+0.003
+
+
+Jacobi Results
+
+28.833
+
+
+Power Results
+
+0.078
+
+
+Neural net Results
+
+2.583
+--------------------------------------------------
+
+Numpt time
+
+0.002
+
+
+Jacobi Results
+
+27.947
+
+
+Power Results
+
+0.075
+
+
+Neural net Results
+
+2.089
+--------------------------------------------------
+
+Numpt time
+
+0.004
+
+
+Jacobi Results
+
+27.84
+
+
+Power Results
+
+0.078
+
+
+Neural net Results
+
+2.109
+--------------------------------------------------
+
+Numpt time
+
+0.004
+
+
+Jacobi Results
+
+27.847
+
+
+Power Results
+
+0.078
+
+
+Neural net Results
+
+2.169
+--------------------------------------------------
+
+Numpt time
+
+0.003
+
+
+Jacobi Results
+
+28.569
+
+
+Power Results
+
+0.074
+
+
+Neural net Results
+
+2.208
+--------------------------------------------------
+
+Numpt time
+
+0.003
+
+
+Jacobi Results
+
+28.937
+
+
+Power Results
+
+0.072
+
+
+Neural net Results
+
+2.267
+--------------------------------------------------
+
+Numpt time
+
+0.004
+
+
+Jacobi Results
+
+29.799
+
+
+Power Results
+
+0.073
+
+
+Neural net Results
+
+2.153
+--------------------------------------------------
+
+Numpt time
+
+0.004
+
+
+Jacobi Results
+
+30.22
+
+
+Power Results
+
+0.073
+
+
+Neural net Results
+
+2.198
+--------------------------------------------------
+
+Numpt time
+
+0.003
+
+
+Jacobi Results
+
+30.947
+
+
+Power Results
+
+0.074
+
+
+Neural net Results
+
+2.21
+--------------------------------------------------
+
+Numpt time
+
+0.005
+
+
+Jacobi Results
+
+32.56
+
+
+Power Results
+
+0.075
+
+
+Neural net Results
+
+2.579
+--------------------------------------------------
+
+Numpt time
+
+0.006
+
+
+Jacobi Results
+
+32.284
+
+
+Power Results
+
+0.076
+
+
+Neural net Results
+
+2.798
+--------------------------------------------------
+
+Numpt time
+
+0.006
+
+
+Jacobi Results
+
+32.81
+
+
+Power Results
+
+0.077
+
+
+Neural net Results
+
+2.84
+--------------------------------------------------
+
+Numpt time
+
+0.007
+
+
+Jacobi Results
+
+33.661
+
+
+Power Results
+
+0.079
+
+
+Neural net Results
+
+3.252
+--------------------------------------------------
+
+Numpt time
+
+0.007
+
+
+Jacobi Results
+
+34.046
+
+
+Power Results
+
+0.66
+
+
+Neural net Results
+
+3.419
+--------------------------------------------------
+
+Numpt time
+
+0.008
+
+
+Jacobi Results
+
+34.536
+
+
+Power Results
+
+0.685
+
+
+Neural net Results
+
+3.495
+--------------------------------------------------
+
+Numpt time
+
+0.009
+
+
+Jacobi Results
+
+36.386
+
+
+Power Results
+
+0.667
+
+
+Neural net Results
+
+3.871
+--------------------------------------------------
+
+Numpt time
+
+0.011
+
+
+Jacobi Results
+
+35.695
+
+
+Power Results
+
+0.686
+
+
+Neural net Results
+
+4.295
+--------------------------------------------------
+
+Numpt time
+
+0.011
+
+
+Jacobi Results
+
+36.592
+
+
+Power Results
+
+0.665
+
+
+Neural net Results
+
+4.592
+--------------------------------------------------
+
+Numpt time
+
+0.013
+
+
+Jacobi Results
+
+36.734
+
+
+Power Results
+
+0.681
+
+
+Neural net Results
+
+4.879
+--------------------------------------------------
+
+Numpt time
+
+0.012
+
+
+Jacobi Results
+
+40.15
+
+
+Power Results
+
+0.713
+
+
+Neural net Results
+
+5.425
+--------------------------------------------------
+
+Numpt time
+
+0.014
+
+
+Jacobi Results
+
+40.624
+
+
+Power Results
+
+0.713
+
+
+Neural net Results
+
+5.615
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+40.471
+
+
+Power Results
+
+0.005
+
+
+Neural net Results
+
+5.75
+--------------------------------------------------
+
+Numpt time
+
+0.013
+
+
+Jacobi Results
+
+39.584
+
+
+Power Results
+
+0.653
+
+
+Neural net Results
+
+5.898
+--------------------------------------------------
+
+Numpt time
+
+0.015
+
+
+Jacobi Results
+
+40.165
+
+
+Power Results
+
+0.674
+
+
+Neural net Results
+
+6.167
+--------------------------------------------------
+
+Numpt time
+
+0.018
+
+
+Jacobi Results
+
+41.026
+
+
+Power Results
+
+0.674
+
+
+Neural net Results
+
+6.488
+--------------------------------------------------
+
+Numpt time
+
+0.028
+
+
+Jacobi Results
+
+42.0
+
+
+Power Results
+
+0.658
+
+
+Neural net Results
+
+6.504
+--------------------------------------------------
+
+Numpt time
+
+0.017
+
+
+Jacobi Results
+
+42.35
+
+
+Power Results
+
+0.675
+
+
+Neural net Results
+
+6.847
+--------------------------------------------------
+
+Numpt time
+
+0.02
+
+
+Jacobi Results
+
+43.058
+
+
+Power Results
+
+0.653
+
+
+Neural net Results
+
+7.06
+--------------------------------------------------
+
+Numpt time
+
+0.02
+
+
+Jacobi Results
+
+43.466
+
+
+Power Results
+
+0.676
+
+
+Neural net Results
+
+6.858
+--------------------------------------------------
+
+Numpt time
+
+0.021
+
+
+Jacobi Results
+
+44.027
+
+
+Power Results
+
+0.667
+
+
+Neural net Results
+
+7.762
+--------------------------------------------------
+
+Numpt time
+
+0.021
+
+
+Jacobi Results
+
+45.286
+
+
+Power Results
+
+0.666
+
+
+Neural net Results
+
+8.202
+--------------------------------------------------
+
+Numpt time
+
+0.025
+
+
+Jacobi Results
+
+45.237
+
+
+Power Results
+
+0.006
+
+
+Neural net Results
+
+7.95
+--------------------------------------------------
+
+Numpt time
+
+0.024
+
+
+Jacobi Results
+
+43.749
+
+
+Power Results
+
+0.622
+
+
+Neural net Results
+
+7.758
+--------------------------------------------------
+
+Numpt time
+
+0.021
+
+
+Jacobi Results
+
+43.588
+
+
+Power Results
+
+0.617
+
+
+Neural net Results
+
+8.41
+--------------------------------------------------
+
+Numpt time
+
+0.026
+
+
+Jacobi Results
+
+44.341
+
+
+Power Results
+
+0.637
+
+
+Neural net Results
+
+8.346
+--------------------------------------------------
+
+Numpt time
+
+0.024
+
+
+Jacobi Results
+
+45.273
+
+
+Power Results
+
+0.619
+
+
+Neural net Results
+
+8.856
+--------------------------------------------------
+
+Numpt time
+
+0.025
+
+
+Jacobi Results
+
+48.354
+
+
+Power Results
+
+0.699
+
+
+Neural net Results
+
+9.106
+--------------------------------------------------
+
+Numpt time
+
+0.027
+
+
+Jacobi Results
+
+49.373
+
+
+Power Results
+
+0.631
+
+
+Neural net Results
+
+9.522
+--------------------------------------------------
+
+Numpt time
+
+0.027
+
+
+Jacobi Results
+
+47.931
+
+
+Power Results
+
+0.623
+
+
+Neural net Results
+
+9.629
+--------------------------------------------------
+
+Numpt time
+
+0.029
+
+
+Jacobi Results
+
+48.348
+
+
+Power Results
+
+0.63
+
+
+Neural net Results
+
+9.966
+--------------------------------------------------
+
+Numpt time
+
+0.029
+
+
+Jacobi Results
+
+48.736
+
+
+Power Results
+
+0.636
+
+
+Neural net Results
+
+10.207
+--------------------------------------------------
+
+Numpt time
+
+0.03
+
+
+Jacobi Results
+
+49.87
+
+
+Power Results
+
+0.006
+
+
+Neural net Results
+
+10.175
+--------------------------------------------------
+
+Numpt time
+
+0.03
+
+
+Jacobi Results
+
+50.53
+
+
+Power Results
+
+0.609
+
+
+Neural net Results
+
+10.859
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+50.973
+
+
+Power Results
+
+0.594
+
+
+Neural net Results
+
+10.826
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+51.199
+
+
+Power Results
+
+0.581
+
+
+Neural net Results
+
+11.109
+--------------------------------------------------
+
+Numpt time
+
+0.047
+
+
+Jacobi Results
+
+51.785
+
+
+Power Results
+
+0.581
+
+
+Neural net Results
+
+11.828
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+52.683
+
+
+Power Results
+
+0.628
+
+
+Neural net Results
+
+11.828
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+53.901
+
+
+Power Results
+
+0.581
+
+
+Neural net Results
+
+8.188
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+54.51
+
+
+Power Results
+
+0.597
+
+
+Neural net Results
+
+8.391
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+54.783
+
+
+Power Results
+
+0.565
+
+
+Neural net Results
+
+8.781
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+56.89
+
+
+Power Results
+
+0.0
+
+
+Neural net Results
+
+9.019
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+57.504
+
+
+Power Results
+
+0.612
+
+
+Neural net Results
+
+10.098
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+58.313
+
+
+Power Results
+
+0.565
+
+
+Neural net Results
+
+9.234
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+58.202
+
+
+Power Results
+
+0.596
+
+
+Neural net Results
+
+11.609
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+59.135
+
+
+Power Results
+
+0.628
+
+
+Neural net Results
+
+15.682
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+59.902
+
+
+Power Results
+
+0.016
+
+
+Neural net Results
+
+14.8
+--------------------------------------------------
+
+Numpt time
+
+0.016
+
+
+Jacobi Results
+
+61.316
+
+
+Power Results
+
+0.628
+
+
+Neural net Results
+
+16.941
+--------------------------------------------------
+
+Numpt time
+
+0.027
+
+
+Jacobi Results
+
+61.778
+
+
+Power Results
+
+0.612
+
+
+Neural net Results
+
+12.595
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+62.779
+
+
+Power Results
+
+0.581
+
+
+Neural net Results
+
+165.908
+--------------------------------------------------
+
+Numpt time
+
+0.032
+
+
+Jacobi Results
+
+71.036
+
+
+Power Results
+
+1.058
+
+
+Neural net Results
+
+209.992
+--------------------------------------------------
+
+Numpt time
+
+0.031
+
+
+Jacobi Results
+
+79.316
+
+
+Power Results
+
+0.791
+
+
+Neural net Results
+
+180.659
+--------------------------------------------------
+
+Numpt time
+
+0.035
+
+
+Jacobi Results
+
+66.743
+
+
+Power Results
+
+0.007
+
+
+Neural net Results
+
+183.411
+--------------------------------------------------
+
+Numpt time
+
+0.034
+
+
+Jacobi Results
+
+67.393
+
+
+Power Results
+
+0.697
+
+
+Neural net Results
+
+192.127
+--------------------------------------------------
+
+Numpt time
+
+0.034
+
+
+Jacobi Results
+
+68.66
+
+
+Power Results
+
+0.64
+
+
+Neural net Results
+
+221.263
+--------------------------------------------------
+
+Numpt time
+
+0.041
+
+
+Jacobi Results
+
+83.313
+
+
+Power Results
+
+0.007
+
+
+Neural net Results
+
+223.27
+--------------------------------------------------
+
+Numpt time
+
+0.049
+
+
+Jacobi Results
+
+94.02
+
+
+Power Results
+
+0.799
+
+
+Neural net Results
+
+234.268
+--------------------------------------------------
+
+Numpt time
+
+0.049
+
+
+Jacobi Results
+
+93.518
+
+
+Power Results
+
+0.77
+
+
+Neural net Results
+
+247.311
+--------------------------------------------------

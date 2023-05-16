@@ -1,0 +1,166 @@
+\documentclass[13.5pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\title{Eigenvectors and eigenvalues computation \\ using Neural Networks}
+\author{\small Raghvendra Mishra \textsubscript{(ME21B1075)} and Ayush Agarwal \textsubscript{(ME21B1076)}}
+\date{13th April, 2023}
+
+\newcommand\myheading[1]{%
+  \par\bigskip
+  {\Large\bfseries#1}\par\smallskip}
+
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Problem Definition}
+    \begin{itemize}
+        \item<1-> Creating an algorithm to find the eigenvalues and their corresponding eigenvectors of a symmetric, positive definite matrix.
+        \item<2-> A neural network based approach will be developed to compute the eigenvectors.
+    \end{itemize}
+
+    \only<1>{\textbf{Symmetric Matrix:} $\mathnormal{A^T = A}$ \newline \newline \textbf{Positive definite:} $\mathnormal{z^T{A}{z} > 0}$ for every non-zero column, $\mathnormal{z}$, of $\mathnormal{A}$}
+
+\end{frame}
+
+\begin{frame}{Motivation for the project}
+    \begin{itemize}
+        \item<1->[] Eigenvalues and eigenvector calculation is an interesting computational problem.
+        \item<2->[] It has uses in machine learning algorithms for Google page indexing, data analysis, clustering analysis, etc.
+        \item<3->[] To provide a more \textbf{Efficient and Accurate}  way of computation is something this paper strives for and hence, is trying to achieve said goal using neural network.
+    \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{Mathematical Methods Used}
+
+    The proposed neural network model:
+
+    \[ \mathnormal{\frac{dx(t)}{dt} = -x(t) + f(x(t))} \]
+
+    for $t \ge 0$, where
+
+    \[\mathnormal{f(x) = [x^T{x}{A} + (1 - x^T{A}{x})I]x} \]
+
+    and $ \mathnormal{x = (x_1, x_2, \ldots x_n)^{T}} \in R^{n}$ represent the state of the network.
+
+    This is a class of \large \textbf{recurrent neural network}.
+
+\end{frame}
+
+\begin{frame}{Mathematical Methods Used}
+
+    \begin{itemize}
+        \item<1->[]The neural network is a nonlinear differential equation.
+        \item<2->[]Generally, it is not easy to solve nonlinear differential equation, but the authors have used the property of $\mathnormal{A}$ being symmetric to establish a better presentation of the solution of the neural network model \\ Since $\mathnormal{A}$ is symmetric matrix, then there exists an orthonormal basis of $\mathnormal{R^n}$ composed by eigenvectors of $\mathnormal{R^n}$. Let $\mathnormal{\lambda_i (i = 1, \ldots, n)}$ be eigenvalues of A and $\mathnormal{S_i (i = 1, \ldots, n)}$ are some constants.
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Mathematical Methods Used}
+
+    Then, solution of network starting from $\mathnormal{x(0)}$ can be represented in terms of a set of orthogonal eigenvectors.
+
+    \Large
+    \[
+        \mathnormal{
+            x(t) = \Sigma_{i=1}^{n} \sqrt{
+                \frac{x(0)^{T}x(0)}{
+                    \Sigma_{j=1}^{n} z_{j}^{2}(0)e^{2x(0)^{T}x(0)(\lambda_{j} - \lambda{i})t}
+                }
+            }z_{i}(0)S_{i}
+        }
+    \]
+
+    \normalsize
+    Using this representation of the network, we set a few required conditions for the solution of the neural network $\mathnormal{x(t)}$ to converge to eigenvectors corresponding to the largest eigenvalue.
+    
+
+\end{frame}
+
+\begin{frame}{Computational Results and Data Used}
+    \myheading{Computational results from paper}
+    These are few of the computer simulation results achieved by the paper. The simulation will show that the proposed network can calculate the eigenvectors corresponding
+    to the largest and smallest eigenvalues of any symmetric matrix. Symmetric matrix can be randomly generated in a simple way. Let Q be any randomly generated real matrix, define:
+
+    \[ \mathnormal{A = } \frac{\mathnormal{(Q^T + Q)}}{2}\]
+
+\end{frame}
+
+\begin{frame}{Computational Results}
+
+    First, a 5 $\times$ 5 symmetric matrix A is generated as
+
+    \[
+        A =
+        \begin{bmatrix}
+            0.7663  & 0.4283  & -0.3237 & -0.4298 & -0.1438 \\
+            0.4283  & 0.2862  & 0.018   & -0.2802 & 0.1230  \\
+            -0.3237 & 0.0118  & -0.9093 & -0.4384 & 0.7684  \\
+            -0.4298 & -0.2802 & -0.4384 & -0.0386 & -0.1315 \\
+            -0.1438 & 0.1230  & 0.7684  & -0.1315 & -0.4480
+        \end{bmatrix}
+    \]
+
+    The paper gets the estimated values of $\lambda_{max}$ and $\lambda_{min}$ are 1.2307 and 1.5688, accurate to the precision of 0.0001. For the minimum we feed $\mathnormal{-A}$ into the network and get 1.5688, which is accurate with just the sign flipped. The true maximum and minumum values computed by MATLAB are:
+
+    \begin{center}
+        maximum eigenvalue \tab $\lambda_{max}$ = 1.2307    \\
+        minimum eigenvalue \tab $\lambda_{min}$ = -1.5688
+    \end{center}
+
+\end{frame}
+
+\begin{frame}{Computational Results}
+
+    Estimated eigenvectors are:
+
+    \[
+        \xi_{max} =
+        \begin{bmatrix}
+            1.0872  \\
+            0.6264  \\
+            -0.0809 \\
+            -0.4736 \\
+            -0.0472
+        \end{bmatrix}
+        \text{\tab}
+        \xi_{min} =
+        \begin{bmatrix}
+            0.1882 \\
+            0.0600 \\
+            1.3209 \\
+            0.3697 \\
+            -0.8446
+        \end{bmatrix}
+    \]
+
+    By feeding the network with -A, it gets that $\xi_{min}$, an estimation to the desired eigenvector, as
+    well as the magnitude of the smallest eigenvalue, 1.5688, which is an accurate estimation just
+    with the sign flipped. The generated eigenvector also corresponds to the target eigenvalue.
+
+\end{frame}
+
+\begin{frame}{Data Used}
+    There's still some study needed to understand how the neural network has been trained by the author's of the paper since the training data has not been mentioned in the paper.
+\end{frame}
+
+\begin{frame}{Objective of the Project}
+
+    \begin{itemize}
+        \item<1->[] To get a better understanding of how different neural networks work and how to simplify network models using Numerical Methods.
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        \LARGE \textbf{THANK YOU!}
+    \end{center}
+\end{frame}
+
+\end{document}

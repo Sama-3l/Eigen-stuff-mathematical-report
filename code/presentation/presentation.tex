@@ -1,0 +1,224 @@
+\documentclass[13.5pt, aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+\title{Eigenvectors and eigenvalues computation \\ using Neural Networks}
+\author{\small Raghvendra Mishra \textsubscript{(ME21B1075)} and Ayush Agarwal \textsubscript{(ME21B1076)}}
+\date{15th May, 2023}
+
+\newcommand\myheading[1]{%
+  \par\bigskip
+  {\Large\bfseries#1}\par\smallskip}
+
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Computational Methods}
+    \begin{itemize}
+        \item<1-> Neural Network Algorithm
+        \item<2-> Power Method
+        \item<3-> Jacobi Algorithm
+    \end{itemize}
+
+    The algorithm is defined as
+
+    \only<1>{
+
+        \[\mathnormal{ \frac{dx(t)}{dt} = -x(t) + f(x(t)) }\]
+        \[\mathnormal{f(x) = [x^T{x}{A} + (1 - x^T{A}{x})I]x }\]
+
+    Which converges through iteration of $x(t)$ with respect to time, starting with a $x(0)$.
+    }
+
+    \only<2>{
+
+        \[\mathnormal{ y_{k} = Ax_{k}}\]
+        \[\mathnormal{x_{k+1} = \frac{y_{k}}{\max(|y_{k}[1]| + |y_{k}[2]| + \cdots + |y_{k}[n]|)}  }\]
+
+    Which converges through iteration of $x(t)$ with respect to time, starting with a $x(0)$.
+    }
+
+    \only<3>{
+
+        \[\mathnormal{\theta = \frac{1}{2}\tan^{-1}(\frac{2a_{ij}}{a_{ii} - a{jj}})}\]
+        \[\mathnormal{R[i][i] = R[j][j] = \cos \theta} \text{\tab} \mathnormal{R[i][j] = -\sin \theta \text{\tab}\mathnormal{R[j][i] = \sin \theta}}\]
+        \[\mathnormal{B = R^{T}AR}\]
+
+    And the steps are repeated until B is obtained to be a diagonal matrix.
+    }
+\end{frame}
+
+\begin{frame}{Neural Network Algorithm}
+    \large \textbf{Dimensions vs Iterations}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/NN_number_of_steps.png}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}
+    Neural network algorithm is pretty efficient in learning to produce the eigenvectors and eigenvalues even for $100 \times 100$ matrices way below the set limit of iterations which is 5000 for each of the methods. These are the values for the number of steps ranging from $2 \times 2$ to $100 \times 100$
+
+    \[
+        \begin{bmatrix}
+            306, 286, 283, 279, 291, 279, 296, 285, 295, 282, 290, 291, 289, 295, 300, 306, 279 \\
+            300, 283, 297, 269, 311, 300, 304, 319, 307, 283, 319, 320, 304, 305, 311, 297, 295, \\
+            297, 324, 302, 278, 292, 283, 294, 306, 302, 292, 305, 298, 298, 313, 302, 304, 322, \\
+            295, 310, 312, 321, 302, 302, 309, 312, 304, 303, 316, 313, 265, 304, 302, 284, 310, \\
+            313, 305, 311, 318, 298, 317, 292, 300, 295, 312, 314, 317, 305, 289, 315, 305, 315, \\
+            310, 299, 301, 326, 328, 310, 310, 294, 302, 312, 312, 314, 310, 305
+        \end{bmatrix}  
+    \]
+\end{frame}
+
+\begin{frame}{Neural Network Algorithm}
+    \large \textbf{Error Analysis and Convergence}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/NN_error_till_62}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}{Neural Network Algorithm}
+    \large \textbf{Error Analysis and Convergence}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/NN_error_till_126}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{C:/Users/raghv/Downloads/NM/NN_error_till_126}
+        \label{fig:image2}
+      \end{figure}
+
+    The above give the error analysis of calculating the eigenvalues using a neural network for dimensions ranging from a $2 \times 2$ matrix to a $126 \times 126$ matrix.
+\end{frame}
+
+\begin{frame}{Power Method}
+    \large \textbf{Dimensions vs Time}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/Power_dim_vs_time.png}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{C:/Users/raghv/Downloads/NM/Power_dim_vs_time.png}
+        \label{fig:image2}
+      \end{figure}
+
+    From the above graph we can see Power Method requiring less than a second to get the eigenvalues of a given matrix, even for a matrix of $250 \times 250$ size.
+\end{frame}
+
+\begin{frame}{Power Method}
+    \large \textbf{Error Analysis and Convergence}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/Power_error_till_62.png}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}{Power Method}
+    \large \textbf{Error Analysis and Convergence}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/Power_error_till_134.png}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{C:/Users/raghv/Downloads/NM/Power_error_till_134.png}
+        \label{fig:image2}
+      \end{figure}
+
+    The above give the error analysis of calculating the eigenvalues for the power method algorithm for dimensions ranging from a $2 \times 2$ matrix to a $134 \times 134$ matrix. Power Method almost instantly achieves convergence but it never touches the threshold value of 1e-16.
+\end{frame}
+
+\begin{frame}{Jacobi Algorithm}
+    \large \textbf{Error Analysis and Convergence}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=1\textwidth]{C:/Users/raghv/Downloads/NM/jacobi_error_till_dim_62.png}
+        \label{fig:image2}
+    \end{figure}
+\end{frame}
+
+\begin{frame}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{C:/Users/raghv/Downloads/NM/jacobi_error_till_dim_62.png}
+        \label{fig:image2}
+    \end{figure}
+
+    As you can see, the convergence for Jacobi algorithm is really erratic and varies quite much from the blue line that is the true eigenvalue and doesn't really converge onto it. 
+    
+\end{frame}
+
+\begin{frame}{Time vs dimensions}
+
+    \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.7\textwidth]{C:/Users/raghv/Downloads/NM/Time to dimensions.png}
+        \label{fig:image2}
+      \end{figure}
+\end{frame}
+
+\begin{frame}
+    This is a time vs number of dimensions of symmetric matrix $A$ where time is in seconds on the y-axis and the dimensions are on the x-axis.
+    \\
+    \begin{center}
+        0 - Numpy values \\
+        1 - Jacobi algorithm \\
+        2 - Power Method \\
+        3 - Neural Network \\
+    \end{center}
+
+    As the graph suggests, Jacobi is the slowest of the 3 methods until the matrix size exceeds 140 where Neural net algorithm starts to fail and go way beyond the 200 seconds mark. In terms of time, \large \textbf{Power Method} \normalsize is the most efficient.
+\end{frame}
+
+\begin{frame}{Conclusions}
+
+    \begin{itemize}
+        \item<1->[]The conclusions can be drawn that Neural Network is an accurate and efficient way of calculating eigenvalues and eigenvectors only upto a certain dimension of less than 150. It may require some changes, like changing the size of the neural network for bigger matrices, to make the convergence faster but for the scope of this paper, the time exceeds a minute as the number of dimensions reach 100.
+        \item<2->[]But, neural network converges to the desired accuracy faster than any other method in under 500 steps for matrices of even 150 dimensions.
+        \item<3->[]So, for faster computations we may use Power Method, with the computational speed of less than a second, but for higher accuraies, we require the power of a neural network to help us.
+        \item<4->[]Meanwhile, Jacobi is just bad.
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        \Huge \textbf{Thank You!}    
+    \end{center}
+\end{frame}
+
+\end{document}
